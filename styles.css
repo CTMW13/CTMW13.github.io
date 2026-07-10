@@ -431,6 +431,11 @@ p {
     gap: clamp(1.5rem, 4vw, 3rem);
 }
 
+#projects-title {
+    font-size: clamp(1.85rem, 3vw, 2.85rem);
+    letter-spacing: 0.055em;
+}
+
 .project-details {
     display: grid;
     gap: 0;
@@ -472,6 +477,11 @@ dd {
     gap: clamp(1.5rem, 4vw, 3rem);
 }
 
+#lab-title {
+    font-size: clamp(1.65rem, 2.65vw, 2.5rem);
+    letter-spacing: 0.05em;
+}
+
 .lab-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -488,17 +498,18 @@ dd {
 
 .timeline-panel {
     display: grid;
-    grid-template-columns: 230px minmax(0, 1fr);
-    gap: 1.5rem;
-    min-height: 230px;
-    padding: 2rem 1.4rem;
-    align-items: stretch;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 2rem;
+    min-height: 245px;
+    padding: 2.1rem 1.6rem;
+    align-items: center;
 }
 
 .timeline-intro h2 {
     margin-bottom: 0;
     font-family: var(--font-heading);
-    font-size: 1.05rem;
+    font-size: clamp(1.18rem, 1.55vw, 1.42rem);
+    line-height: 1.14;
     letter-spacing: 0.1em;
 }
 
@@ -556,6 +567,14 @@ dd {
     text-align: center;
 }
 
+#contact-title {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(2rem, 3.15vw, 3rem);
+    letter-spacing: 0.055em;
+}
+
 .contact-panel p {
     max-width: 540px;
     margin-right: auto;
@@ -580,6 +599,10 @@ dd {
 
     .timeline-list {
         padding-top: 0.6rem;
+    }
+
+    .timeline-intro h2 {
+        max-width: 420px;
     }
 }
 
