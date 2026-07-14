@@ -425,7 +425,15 @@ p {
 }
 
 .mission-panel p {
-    max-width: 720px;
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.mission-panel .section-label,
+.mission-panel h2 {
+    text-align: center;
 }
 
 .project-panel {
