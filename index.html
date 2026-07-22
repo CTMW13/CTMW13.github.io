@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Cormorant+Garamond:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Marcellus&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 
             <span>
                 <strong>Courtney Walsh</strong>
-                <small>Robotics & AI Engineering Student</small>
+                <small>Robotics & AI Engineering Student at Kingston University</small>
             </span>
         </a>
 
@@ -50,7 +50,7 @@
 
                     <p class="hero-subtitle">
                         I am heading into my first year of Robotics and Artificial
-                        Intelligence Engineering, building practical projects while learning the
+                        Intelligence Engineering at Kingston University, building practical projects while learning the
                         foundations properly.
                     </p>
 
@@ -120,35 +120,87 @@
             </p>
         </section>
 
-        <section class="panel-section project-panel" id="projects" aria-labelledby="projects-title">
-            <div>
+        <section
+            class="panel-section project-section"
+            id="projects"
+            aria-labelledby="projects-title"
+        >
+            <header class="project-intro">
                 <p class="section-label">Project 001</p>
-                <h2 id="projects-title">Nexa Study</h2>
-                <p>
-                    An AI-powered STEM study tool that turns rough notes into summaries,
-                    quizzes, revision packs, PDFs, and offline flashcard decks.
-                    <br>
-                    <br>
-                    Built as my first serious AI portfolio project, with a focus on
-                    turning messy study material into structured revision outputs.
-                </p>
-                <a class="text-link" href="https://github.com/CTMW13/nexa-study" target="_blank" rel="noopener noreferrer">View repository</a>
-            </div>
 
-            <dl class="project-details">
-                <div>
-                    <dt>Status</dt>
-                    <dd>MVP portfolio project</dd>
+                <h2 id="projects-title">Nexa Study</h2>
+
+                <p>
+                    An AI-powered STEM study tool that turns rough notes into
+                    summaries, quizzes, revision packs, PDFs, and offline
+                    flashcard decks.
+                </p>
+
+                <p>
+                    Built as my first serious AI portfolio project, with a focus
+                    on turning messy study material into structured revision
+                    outputs.
+                </p>
+
+                <a
+                    class="text-link"
+                    href="https://github.com/CTMW13/nexa-study"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View repository
+                </a>
+            </header>
+
+            <div class="project-content">
+                <div class="project-showcase">
+                    <p class="section-label showcase-label">Showcase</p>
+
+                    <video
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                        controls
+                        preload="auto"
+                        aria-label="Preview of Nexa Study transforming rough STEM notes into structured revision materials"
+                    >
+                        <source
+                            src="/assets/videos/nexa-showcase.mp4"
+                            type="video/mp4"
+                        >
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <p class="video-caption">
+                        Preview of Nexa Study transforming rough STEM notes into
+                        structured revision materials.
+                    </p>
                 </div>
-                <div>
-                    <dt>Built with</dt>
-                    <dd>Python, Streamlit, OpenAI API, ReportLab, HTML, CSS, JavaScript</dd>
-                </div>
-                <div>
-                    <dt>What it shows</dt>
-                    <dd>Prompt design, project structure, exports, UX iteration, and practical AI workflow thinking.</dd>
-                </div>
-            </dl>
+
+                <dl class="project-details">
+                    <div>
+                        <dt>Status</dt>
+                        <dd>MVP portfolio project</dd>
+                    </div>
+
+                    <div>
+                        <dt>Built with</dt>
+                        <dd>
+                            Python, Streamlit, OpenAI API, ReportLab, HTML, CSS
+                            and JavaScript
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>What it shows</dt>
+                        <dd>
+                            Prompt design, project structure, exports, UX iteration
+                            and practical AI workflow thinking.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
         </section>
 
         <section class="panel-section toolkit-panel" id="toolkit" aria-labelledby="toolkit-title">
@@ -193,8 +245,16 @@ Mission-control interfaces, constellation navigation, ambient sound, subtle inte
                     <p>Discovered my interest in robotics and AI.</p>
                 </li>
                 <li>
+                    <span>2024</span>
+                    <strong>STEM Access Course</strong>
+                    <p>
+                        Completed a STEM Access course with The Open University,
+                        strengthening my foundations in maths, science and engineering.
+                    </p>
+                </li>
+                <li>
                     <span>2025-2026</span>
-                    <strong>Foundation Year</strong>
+                    <strong>Foundation Year at KU</strong>
                     <p>Built confidence, strengthened STEM foundations, in preparation for First Year.</p>
                 </li>
                 <li>
@@ -204,7 +264,7 @@ Mission-control interfaces, constellation navigation, ambient sound, subtle inte
                 </li>
                 <li>
                     <span>2026-2027</span>
-                    <strong>First Year</strong>
+                    <strong>First Year at KU</strong>
                     <p>Starting Robotics Engineering and Artificial Intelligence.</p>
                 </li>
                 <li>
