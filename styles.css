@@ -817,7 +817,11 @@ p {
 
 @media (max-width: 520px) {
     .brand small {
-        display: none;
+        display: block;
+        max-width: 240px;
+        font-size: 0.62rem;
+        line-height: 1.35;
+        letter-spacing: 0.08em;
     }
 
     .nav-links a {
